@@ -64,7 +64,7 @@ export async function initializeConfig(args = process.argv.slice(2), configFileP
         // Fallback to default values if config.json is not found or invalid
         currentConfig = {
             REQUIRED_API_KEY: "123456",
-            SERVER_PORT: 3000,
+            SERVER_PORT: 3124,
             HOST: '0.0.0.0',
             MODEL_PROVIDER: MODEL_PROVIDER.GEMINI_CLI,
             SYSTEM_PROMPT_FILE_PATH: INPUT_SYSTEM_PROMPT_FILE, // Default value
